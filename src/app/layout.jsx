@@ -17,10 +17,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth bg-[#050816]">
       <AOSInit />
       <body
-        className={`${poppins.className} w-full min-h-screen bg-[url("/assets/body-background.svg")] bg-cover`}
+        className={`${poppins.className} w-full min-h-screen dark text-foreground bg-[#050816]`}
       >
         <Providers>{children}</Providers>
       </body>

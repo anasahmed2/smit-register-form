@@ -156,31 +156,31 @@ const competitions = [
       Prize: { first: "Rs. 25,000", second: "Rs. 15,000"},
     },
   },
-//   {
-//     name: "PWN CTF.",
-//     href: "pwnctf",
-//     cardImg: "/assets/comp-pwnctf.png",
-//     pageInfo: {
-//       intro:
-//         "Attention hackers and cybersecurity enthusiasts! Are you fascinated by the intricate inner workings of low-level systems? Do you possess an insatiable thirst for pushing the boundaries of security? If you've ever yearned for a thrilling challenge in the local Capture The Flag (CTF) scene, then look no further! Introducing our groundbreaking Binary Exploitation/Pwn CTF Competition. Prepare to delve into the depths of binary exploitation, where you will unravel the secrets of vulnerable programs and master the art of seizing control of the coveted RIP register. This CTF is specifically designed to test your mettle in low-level systems and their security. It's time to demonstrate your expertise in uncovering vulnerabilities, crafting cunning exploits, and demonstrating malicious attacks.",
-//       rules: [
-//         "Participants are required to bring their own laptops with the required tools installed. E.g., GDB, Ghidra, Python (with pwntools), etc.",
-//         "Platform: CTFd (hosted locally)",
-//         "Style: Jeopardy",
-//         "Categories: Pwn, Linux Kernel",
-//       ],
-//       registration: [
-//         "The event is open for everyone.",
-//         "Each team will have 1-3 members, and the registration fee for each team is Rs. 1200.",
-//       ],
-//       eval: [
-//         "CTFd Automatic Judging (with decay).",
-//       ],
-//       dateTime:
-//         "Competition will be held on June 4th, Suday, from 10:00 AM to 3:00 PM. This Competition provides a great opportunity for participants to showcase your talent and gain valuable experience.",
-//       Prize: { first: "Rs. 15,000", second: "Rs. 10,000"},
-//     },
-//   },
+  {
+    name: "PWN CTF.",
+    href: "pwnctf",
+    cardImg: "/assets/comp-pwnctf.png",
+    pageInfo: {
+      intro:
+        "Attention hackers and cybersecurity enthusiasts! Are you fascinated by the intricate inner workings of low-level systems? Do you possess an insatiable thirst for pushing the boundaries of security? If you've ever yearned for a thrilling challenge in the local Capture The Flag (CTF) scene, then look no further! Introducing our groundbreaking Binary Exploitation/Pwn CTF Competition. Prepare to delve into the depths of binary exploitation, where you will unravel the secrets of vulnerable programs and master the art of seizing control of the coveted RIP register. This CTF is specifically designed to test your mettle in low-level systems and their security. It's time to demonstrate your expertise in uncovering vulnerabilities, crafting cunning exploits, and demonstrating malicious attacks.",
+      rules: [
+        "Participants are required to bring their own laptops with the required tools installed. E.g., GDB, Ghidra, Python (with pwntools), etc.",
+        "Platform: CTFd (hosted locally)",
+        "Style: Jeopardy",
+        "Categories: Pwn, Linux Kernel",
+      ],
+      registration: [
+        "The event is open for everyone.",
+        "Each team will have 1-3 members, and the registration fee for each team is Rs. 1200.",
+      ],
+      eval: [
+        "CTFd Automatic Judging (with decay).",
+      ],
+      dateTime:
+        "Competition will be held on June 4th, Suday, from 10:00 AM to 3:00 PM. This Competition provides a great opportunity for participants to showcase your talent and gain valuable experience.",
+      Prize: { first: "Rs. 15,000", second: "Rs. 10,000"},
+    },
+  },
 ];
 
 export { competitions };

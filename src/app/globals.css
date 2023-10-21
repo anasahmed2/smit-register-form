@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 .highlight {
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(81, 99, 255, 1) 0%,
-    rgba(67, 255, 73, 1) 100%
-  );
+  background:-webkit-linear-gradient(-90.13deg,#00a2f4 1.9%,#f900fe 97.5%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

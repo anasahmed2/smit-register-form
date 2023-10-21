@@ -11,13 +11,14 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Header({ page }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <Navbar
-      className="!fixed bg-transparent"
+      className="!fixed"
       isBordered
       isBlurred={true}
       isMenuOpen={isMenuOpen}
@@ -34,7 +35,7 @@ export default function Header({ page }) {
           <NavbarItem>
             <Link
               href="/"
-              className="scroll-smooth hover:text-green-500 active:text-green-500"
+              className="scroll-smooth hover:text-[#874AFE] active:text-[#874AFE]"
             >
               Back to Home
             </Link>
@@ -44,7 +45,7 @@ export default function Header({ page }) {
             <NavbarItem>
               <Link
                 href="/#about"
-                className="scroll-smooth hover:text-green-500 active:text-green-500"
+                className="scroll-smooth hover:text-[#874AFE] active:text-[#874AFE]"
               >
                 About
               </Link>
@@ -52,7 +53,7 @@ export default function Header({ page }) {
             <NavbarItem>
               <Link
                 href="/#timeline"
-                className="scroll-smooth hover:text-green-500 active:text-green-500"
+                className="scroll-smooth hover:text-[#874AFE] active:text-[#874AFE]"
               >
                 Event Timeline
               </Link>
@@ -60,7 +61,7 @@ export default function Header({ page }) {
             <NavbarItem>
               <Link
                 href="/#help"
-                className="scroll-smooth hover:text-green-500 active:text-green-500"
+                className="scroll-smooth hover:text-[#874AFE] active:text-[#874AFE]"
               >
                 Help
               </Link>
@@ -71,7 +72,7 @@ export default function Header({ page }) {
       <NavbarMenu className="scrollbar-hide">
         <NavbarMenuItem>
           <Link
-            className="w-full hover:text-green-500 active:text-green-500"
+            className="w-full hover:text-[#874AFE] active:text-[#874AFE]"
             onClick={() => setIsMenuOpen(false)}
             href="/#about"
             size="lg"
@@ -81,7 +82,7 @@ export default function Header({ page }) {
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link
-            className="w-full hover:text-green-500 active:text-green-500"
+            className="w-full hover:text-[#874AFE] active:text-[#874AFE]"
             onClick={() => setIsMenuOpen(false)}
             href="/#timeline"
             size="lg"
@@ -91,7 +92,7 @@ export default function Header({ page }) {
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link
-            className="w-full hover:text-green-500 active:text-green-500"
+            className="w-full hover:text-[#874AFE] active:text-[#874AFE]"
             onClick={() => setIsMenuOpen(false)}
             href="/#help"
             size="lg"

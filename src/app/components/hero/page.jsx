@@ -2,7 +2,10 @@ import { Button } from "@nextui-org/button";
 import Image from "next/image";
 import Link from "next/link";
 
+
 export default function Hero() {
+ 
+
 
   return (
     <main className="overview w-full h-fit flex justify-center p-10 hero-bg mt-16">
@@ -17,12 +20,13 @@ export default function Hero() {
           <h2 data-aos="fade-right" data-aos-delay="100" className="text-center text-white sm:text-left text-lg md:text-xl font-medium mt-1">
             Saylani Mass IT Training
           </h2>
-          <Link href="#">
+          <Link href="https://forms.saylaniwelfare.com/en">
             <Button
                data-aos="fade-right" data-aos-delay="200"
               radius="sm"
               className="mt-7 md:px-6 md:py-6 !text-white text-sm md:text-base font-medium drop-shadow-xl bg-gradient-to-r to-[#00a2f4] from-[#f900fe] hover:scale-105"
-            >
+         
+           >
               Register now
             </Button>
           </Link>
