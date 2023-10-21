@@ -4,7 +4,7 @@ const InputComp = ({name, type, placeholder, label }) => {
    
     return (
         <>
-            <div className="w-ful h-auto p-[10px]">
+            <div data-aos="fade" className="w-ful h-auto p-[10px]">
                 <div className="w-ful h-auto pl-[30px] mt-[0] mb-[0] ml-[auto] mr-[auto]">
                     <p className="m-[0] text-green-500 highlight font-bold text-[1.2em]">{name}:</p>
                 </div>
@@ -26,7 +26,7 @@ const TextAreaComp = ({ label, placeholder }) => {
         <>
             <div className="w-ful h-auto p-[10px]">
 
-                <div className="w-ful h-auto pl-[30px] mt-[0] mb-[0] ml-[auto] mr-[auto]">
+                <div data-aos="fade" className="w-ful h-auto pl-[30px] mt-[0] mb-[0] ml-[auto] mr-[auto]">
                     <p className="m-[0] text-green-500 highlight font-bold text-[1.2em]">what's your mind</p>
                 </div>
                 <div className="textAreastar">

@@ -6,7 +6,7 @@ function CardRender() {
     return (
         <>
             <main className="w-ful h-auto flex justify-center items-center flex-wrap">
-                {competitions.map((value, index) => <Card key={index} {...value} />)}
+                {competitions.map((value, index) => (<Card key={index} name={value.name} href={value.href} cardImg={value.cardImg}  />))}
             </main>
         </>
     )

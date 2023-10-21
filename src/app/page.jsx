@@ -8,12 +8,14 @@ import Help from "./components/help/page";
 export default function Home() {
   return (
     <>
+    <main className="w-ful h-auto bg-[#050816]">
       <Header />
       <Hero />
       <About />
       <CardRender/>
       <Timeline />
       <Help/>
+      </main>
     </>
   );
 }

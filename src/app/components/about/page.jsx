@@ -2,13 +2,13 @@ export default function About() {
   return (
     <main id="about" className="w-full h-fit flex justify-center p-10">
       <div className="container flex flex-col">
-        <p data-aos="fade" className="sm:text-[18px] text-[14px] text-gray-600 uppercase tracking-wider">
+        <p data-aos="fade" className="sm:text-[18px] text-[14px] text-[#aaa6c3] uppercase tracking-wider">
           Introduction
         </p>
-        <h1 data-aos="fade" className="text-black font-black md:text-[60px] sm:text-[50px] xs:text-[28px] text-[30px]">
+        <h1 data-aos="fade" className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[28px] text-[30px]">
           Overview
         </h1>
-        <p data-aos="fade" className="mt-4 text-gray-600 text-[17px] max-w-5xl leading-[30px]">
+        <p data-aos="fade" className="mt-4 text-[#aaa6c3] text-[17px] max-w-5xl leading-[30px]">
           Get ready to be part of the Most Anticipated event of the year of SMIT
           Con&apos;23! This mega event promises to be a melting pot of
           knowledge,creativity, and inspiration. With participants and attendees
@@ -27,8 +27,8 @@ export default function About() {
           ensuring an unforgettable experience for participants and attendees
           alike.
         </p>
-        <h2 data-aos="fade" className="text-lg font-bold mt-2">Competitions Include:</h2>
-        <ul data-aos="fade" className="list-disc ms-5 text-gray-600">
+        <h2 data-aos="fade" className="text-lg text-white font-bold mt-2">Competitions Include:</h2>
+        <ul data-aos="fade" className="list-disc ms-5 text-[#aaa6c3]">
           <li>Competitive Programming</li>
           <li>Mobile Hackathon</li>
           <li>Game Dev Hackathon</li>
@@ -36,7 +36,7 @@ export default function About() {
           <li>Artificial Intelligence</li>
           <li>ESports</li>
         </ul>
-        <p data-aos="fade" className="mt-4 text-gray-600 text-[17px] max-w-5xl leading-[30px]">
+        <p data-aos="fade" className="mt-4 text-[#aaa6c3] text-[17px] max-w-5xl leading-[30px]">
           Mark your calendars on <span className="font-bold">26th October 2023</span> and Get ready to be part
           of this extraordinary event that celebrates innovation, talent and the
           limitless potential of technology at SMIT Con&apos;23 and let your brilliance

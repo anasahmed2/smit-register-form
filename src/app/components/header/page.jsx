@@ -17,7 +17,7 @@ export default function Header({ page }) {
 
   return (
     <Navbar
-      className="!fixed"
+      className="!fixed bg-transparent"
       isBordered
       isBlurred={true}
       isMenuOpen={isMenuOpen}
